@@ -1,0 +1,28 @@
+ros-kinetic-create-description (2.3.0-0wily) wily; urgency=high
+
+  * -Fix extreme slipping of create base in gazebo by using same parameters that kobuki uses
+  * Contributors: Stefan Kohlbrecher
+
+ -- OSRF <turtlebot@osrfoundation.com>  Sun, 30 Nov 2014 08:00:00 -0000
+
+ros-kinetic-create-description (2.2.1-0wily) wily; urgency=high
+
+
+
+ -- OSRF <turtlebot@osrfoundation.com>  Wed, 23 Jul 2014 07:00:00 -0000
+
+ros-kinetic-create-description (2.2.0-0wily) wily; urgency=high
+
+  * adds bugtracker and repo info to package.xml
+  * removes laser simulation
+
+ -- OSRF <turtlebot@osrfoundation.com>  Fri, 30 Aug 2013 07:00:00 -0000
+
+ros-kinetic-create-description (2.1.0-0wily) wily; urgency=high
+
+  * ROS Hydro beta release
+  * Fully catkinized
+
+ -- OSRF <turtlebot@osrfoundation.com>  Fri, 19 Jul 2013 07:00:00 -0000
+
+
