@@ -1,0 +1,33 @@
+ros-kinetic-create-driver (2.3.1-0xenial) xenial; urgency=high
+
+
+
+ -- OSRF <turtlebot@osrfoundation.org>  Fri, 24 Jun 2016 07:00:00 -0000
+
+ros-kinetic-create-driver (2.3.0-0xenial) xenial; urgency=high
+
+
+
+ -- OSRF <turtlebot@osrfoundation.org>  Sun, 30 Nov 2014 08:00:00 -0000
+
+ros-kinetic-create-driver (2.2.1-0xenial) xenial; urgency=high
+
+  * Remove open() to fix double-open exception. Improve error info when an exception on opening serial port happens
+  * Contributors: Paul Bouchier
+
+ -- OSRF <turtlebot@osrfoundation.org>  Wed, 23 Jul 2014 07:00:00 -0000
+
+ros-kinetic-create-driver (2.2.0-0xenial) xenial; urgency=high
+
+  * adds bugtracker and repo info to package.xml
+
+ -- OSRF <turtlebot@osrfoundation.org>  Fri, 30 Aug 2013 07:00:00 -0000
+
+ros-kinetic-create-driver (2.1.0-0xenial) xenial; urgency=high
+
+  * ROS Hydro beta release
+  * Fully catkinized
+
+ -- OSRF <turtlebot@osrfoundation.org>  Fri, 19 Jul 2013 07:00:00 -0000
+
+
