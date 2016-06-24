@@ -1,0 +1,13 @@
+Source: ros-kinetic-create-node
+Section: misc
+Priority: extra
+Maintainer: OSRF <turtlebot@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-create-driver, ros-kinetic-diagnostic-msgs, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-nav-msgs, ros-kinetic-rospy, ros-kinetic-tf
+Homepage: http://ros.org/wiki/create_node
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-create-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-create-driver, ros-kinetic-diagnostic-msgs, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-python-orocos-kdl, ros-kinetic-rospy, ros-kinetic-tf
+Description: iRobot Create ROS driver node ROS bindings for the Create/Roomba driver.
+ This is based on otl_roomba driver by OTL, ported to use create_driver's implementation instead. This also contains a 'bonus' feature from the turtlebot driver by Xuwen Cao and Morgan Quigley.
